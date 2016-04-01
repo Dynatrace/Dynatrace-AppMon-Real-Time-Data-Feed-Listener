@@ -36,8 +36,8 @@ public class DynatraceRealTimeDataListener {
 		// create our listeners!
 		ArrayList<DynatraceResultCallback> callbacks = new ArrayList<DynatraceResultCallback>();
 		if(bAggregate) callbacks.add(new DynatraceResultAggregatorCallback());
-		if(bConsole) callbacks.add(new DynatraceResultConsoleCallback());
-		if(callbacks.size() == 0) callbacks.add(new DynatraceResultConsoleCallback());
+		if(bConsole) callbacks.add(new DynatraceResultConsoleCallback(System.out));
+		if(callbacks.size() == 0) callbacks.add(new DynatraceResultConsoleCallback(System.out));
 
 		// start with the first listener
 		DynatraceRealTimeDataListener listener = new DynatraceRealTimeDataListener();

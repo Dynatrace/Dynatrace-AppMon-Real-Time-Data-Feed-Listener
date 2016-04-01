@@ -8,6 +8,11 @@ import com.google.protobuf.LazyStringList;
 
 public class DynatraceResultConsoleCallback implements DynatraceResultCallback {
 	
+	private PrintStream printStream;
+	public DynatraceResultConsoleCallback(PrintStream stream) {
+		this.printStream = stream;
+	}
+	
 	public void flushResults(PrintStream stream) {
 		// nothing to write as we write everything out as it comes in!
 	}
@@ -51,7 +56,9 @@ public class DynatraceResultConsoleCallback implements DynatraceResultCallback {
     		
     		sb.append("\n");
     	}
-		System.out.println(sb.toString());
+    	
+    	if(printStream != null)
+    		printStream.println(sb.toString());
 	}
 
 }
