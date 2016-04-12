@@ -6,6 +6,10 @@ Implements a listener for the Real Time Business Transaction Data Feed Feature o
 
 # How to get this up & running?
 
+## Step #0: Get Dynatrace Personal License
+
+Simply register here and get your lifetime Dynatrace AppMon License: http://bit.ly/dtpersonal
+
 ## Step #1: Launch the console app!
 Simply start the app. The app will listen on http://localhost:4001/test. Port and endpoint are configurable via command line option. By default the LIVE Data Stream output goes to the console but you can also use the "aggregator" output which will give you an aggragted output when you end the app
 
