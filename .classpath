@@ -7,7 +7,7 @@
 		</accessrules>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/protobuf-java-2.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/apache-jmeter-2.13/lib/ext/ApacheJMeter_core.jar"/>
-	<classpathentry kind="lib" path="C:/apache-jmeter-2.13/lib/ext/ApacheJMeter_components.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_components.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_core.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
