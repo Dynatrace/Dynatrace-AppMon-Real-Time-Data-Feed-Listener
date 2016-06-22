@@ -1,7 +1,9 @@
 # Dynatrace-Real-Time-Data-Feed-Listener
 Implements a listener for the Real Time Business Transaction Data Feed Feature of Dynatrace. It allows you to easily get LIVE metrics from Dynatrace. Can for instance be used during any automated test to enrich your reports!
 
-Find more Dynatrace Plugins and Extension on the [Dynatrace Community Portal](https://community.dynatrace.com/community/display/DL/FastPacks+and+Plugins)
+Find [this](https://community.dynatrace.com/community/display/DL/Real+Time+Data+Feed+Listener) more Dynatrace Plugins and Extension on the [Dynatrace Community Portal](https://community.dynatrace.com/community/display/DL/FastPacks+and+Plugins)
+
+This plugin is not officially supported by Dynatrace. It is supported by the author and the community!
 
 ## Example: Get your Dynatrace App Metrics as Console Output while running your Load Test!
 ![](https://github.com/Dynatrace/Dynatrace-Real-Time-Data-Feed-Listener/blob/master/images/BTConfiguration.png)
